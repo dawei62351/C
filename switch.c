@@ -8,6 +8,6 @@ int main (){
         case 'A':
             printf("good job");
         default:
-            printf("enter your grade:")
+            printf("enter your grade:")   ;
     }
 }
