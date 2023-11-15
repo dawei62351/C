@@ -4,12 +4,16 @@
 #include "stdio.h"
 int main (){
     char grade;
-    switch(grade){
-        case 'A':
-            printf("great job");
-        case 'B':
-            printf("good job");
-        default:
-            printf("enter your grade:");
+    while((grade = getchar()) != 'Q') {
+        scanf("%c", &grade);
+        switch (grade) {
+            case 'A':
+                printf("great job\n");
+            case 'B':
+                printf("good job\n");
+            default:
+                printf("enter your grade:");
+        }
     }
+    return 0;
 }

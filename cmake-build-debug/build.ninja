@@ -91,6 +91,42 @@ build CMakeFiles/untitled.dir/switch.c.o: C_COMPILER__untitled_unscanned_Debug /
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir
 
+build CMakeFiles/untitled.dir/calculator.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dz/CLionProjects/OS/calculator.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/calculator.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+
+build CMakeFiles/untitled.dir/pointer/pointerPractice.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dz/CLionProjects/OS/pointer/pointerPractice.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/pointer/pointerPractice.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir/pointer
+
+build CMakeFiles/untitled.dir/pointer/pointArray.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dz/CLionProjects/OS/pointer/pointArray.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/pointer/pointArray.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir/pointer
+
+build CMakeFiles/untitled.dir/pointer/pointerFunction.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dz/CLionProjects/OS/pointer/pointerFunction.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/pointer/pointerFunction.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir/pointer
+
+build CMakeFiles/untitled.dir/gamerunner/world.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dz/CLionProjects/OS/gamerunner/world.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/gamerunner/world.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir/gamerunner
+
+build CMakeFiles/untitled.dir/gamerunner/gamerunner.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dz/CLionProjects/OS/gamerunner/gamerunner.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/gamerunner/gamerunner.c.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir/gamerunner
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled
@@ -99,7 +135,7 @@ build CMakeFiles/untitled.dir/switch.c.o: C_COMPILER__untitled_unscanned_Debug /
 #############################################
 # Link the executable untitled
 
-build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/temps.c.o CMakeFiles/untitled.dir/sampleinput.cpp.o CMakeFiles/untitled.dir/notes.cpp.o CMakeFiles/untitled.dir/triangle.c.o CMakeFiles/untitled.dir/mystery1.c.o CMakeFiles/untitled.dir/switch.c.o
+build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/temps.c.o CMakeFiles/untitled.dir/sampleinput.cpp.o CMakeFiles/untitled.dir/notes.cpp.o CMakeFiles/untitled.dir/triangle.c.o CMakeFiles/untitled.dir/mystery1.c.o CMakeFiles/untitled.dir/switch.c.o CMakeFiles/untitled.dir/calculator.c.o CMakeFiles/untitled.dir/pointer/pointerPractice.c.o CMakeFiles/untitled.dir/pointer/pointArray.c.o CMakeFiles/untitled.dir/pointer/pointerFunction.c.o CMakeFiles/untitled.dir/gamerunner/world.c.o CMakeFiles/untitled.dir/gamerunner/gamerunner.c.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/untitled.dir
   POST_BUILD = :
